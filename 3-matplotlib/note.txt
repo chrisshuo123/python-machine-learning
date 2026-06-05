@@ -1,0 +1,5 @@
+alternative1_simplerDataset
+If already have DataFrame but just need data from column1
+
+alternative2_studentExam
+The realistic scenario of Student Exam Scores
