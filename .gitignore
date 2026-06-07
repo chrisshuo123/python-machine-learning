@@ -1,0 +1,2 @@
+kaggle-housePrice/dataset/*
+!kaggle-housePrice/dataset/test.csv
