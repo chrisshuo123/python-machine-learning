@@ -12,6 +12,6 @@ data = {
 }
 
 df = pd.DataFrame(data)
-df.to_csv('2-pandas\data\dataSkenario3.csv', index=False)
+df.to_csv('learnML-plugin\2-pandas\data\dataSkenario3.csv', index=False)
 print("File data.csv (data sederhana) telah dibuat!")
 print(df.head())

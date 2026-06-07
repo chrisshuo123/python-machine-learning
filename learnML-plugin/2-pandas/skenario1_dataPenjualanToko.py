@@ -25,7 +25,7 @@ df = pd.DataFrame(data)
 df['total_penjualan'] = df['harga'] * df['jumlah_terjual'] * (1 - df['diskon_persen']/100)
 
 # Menyimpan ke CSV
-df.to_csv('2-pandas\data\dataSkenario1.csv', index=False)
+df.to_csv('learnML-plugin\2-pandas\data\dataSkenario1.csv', index=False)
 print("File data.csv telah dibuat!")
 print("\n5 baris pertama:")
 print(df.head())

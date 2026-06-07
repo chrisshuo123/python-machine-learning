@@ -24,6 +24,6 @@ df = pd.DataFrame(data)
 # Menambahkan kolom total_gaji
 df['total_gaji'] = df['gaji_pokok'] + df['tunjangan'] + (df['jam_lembur'] * 50000)
 
-df.to_csv('2-pandas\data\dataSkenario2.csv', index=False)
+df.to_csv('learnML-plugin\2-pandas\data\dataSkenario2.csv', index=False)
 print("File data.csv (data karyawan) telah dibuat!")
 print(df.head())
