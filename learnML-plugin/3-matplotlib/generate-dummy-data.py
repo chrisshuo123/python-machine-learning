@@ -15,7 +15,7 @@ def generate_dummy_data(n_samples=1000, random_seed=42):
     }
 
     df = pd.DataFrame(data)
-    df.to_csv('3-matplotlib\data\dummy-data.csv', index=False)
+    df.to_csv('learnML-plugin\3-matplotlib\data\dummy-data.csv', index=False)
     print(f"Dummy data saved to '3-matplotlib\data\dummy-data.csv' with {n_samples} rows")
     return df
 
