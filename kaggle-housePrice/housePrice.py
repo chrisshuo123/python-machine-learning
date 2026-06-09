@@ -6,4 +6,4 @@ test = pd.read_csv(r"kaggle-housePrice\dataset\test.csv")
 
 """ Train: Unhash # the train below to train """
 train = pd.read_csv(r"kaggle-housePrice\dataset\train.csv")
-print(train.head())
+# print(train.head())
