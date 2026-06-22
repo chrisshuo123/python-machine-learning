@@ -1,3 +1,3 @@
 kaggle-housePrice/dataset/*
 !kaggle-housePrice/dataset/test.csv
-!NOTE_PENTING.txt
+NOTE_PENTING.txt
